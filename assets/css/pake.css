@@ -1,0 +1,301 @@
+.d-none {
+display: none !important; }
+
+.d-lg-block {
+  display: block !important; }
+
+.position-absolute {
+    position: absolute !important; }
+
+.corner-top-left {
+  top: 0;
+  left: 0; }
+
+.corner-top-right {
+  top: 0;
+  right: 0; }
+
+
+.flip-x {
+  
+  transform: scaleX(-1); }
+
+.flip-y {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1); }
+
+.flip-xy {
+  -webkit-transform: scale(-1);
+  transform: scale(-1); }
+
+@media screen and (max-width: 480px) {
+.pojok-m {
+  display: none;
+   }
+}
+@media screen and (min-width: 480px) {
+  .atas {
+    display: none; 
+    }
+}
+
+ .w-100 {
+    width: 500px !important; }
+    
+/*akad resepsi*/
+.kontainer {
+  position: relative;
+  z-index: 2;
+}
+.wann_section .kontainer {
+  padding-top: 132px;
+  padding-bottom: 128px;
+}
+.wann_lg_padding .kontainer {
+  padding-top: 222px;
+  padding-bottom: 218px;
+}
+.wann_section_sml_padding .kontainer {
+  padding-top: 50px;
+  padding-bottom: 46px;
+}
+.kontainer.text-center h2 {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wann_section_extra_sml .kontainer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.kontainer {
+  position: relative;
+}
+.kontainer {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+.wann_slider .kontainer {
+    position: relative;
+    height: 100%;
+  }
+.wann_slider > .kontainer {
+      z-index: 2;
+    }
+.wann_section .kontainer {
+  padding-top: 56px;
+  padding-bottom: 46px;
+}
+
+.wann_section_sml_padding .wann_icon_boxes {
+  padding: 50px 0;
+  margin: 0;
+}
+.wann_icon_boxes {
+  margin-top: 80px;
+  margin-bottom: -30px;
+}
+.wann_simple_block .wann_icon_boxes {
+    margin-top: 0;
+  }
+.wann_icon_boxes {
+  margin-right: 0;
+  margin-left: 0;
+}
+.wann_icon_boxes {
+  margin-top: 0;
+}
+
+
+.wann_news_block,
+.wann_shop_item {
+  text-align: left;
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  -webkit-box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 1.5px 9px 0 rgba(0,0,0,0.2);
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 30px;
+}
+.wann_wht_txt .wann_news_block:hover,
+.wann_wht_txt .wann_shop_item:hover {
+  -webkit-box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.5);
+    box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.5);
+}
+.wann_news_block:hover,
+  .wann_shop_item:hover {
+    text-decoration: none;
+    transform: translateY(-10px);
+    -webkit-box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);
+    box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);
+  }
+.wann_wht_txt .wann_news_block,
+.wann_wht_txt .wann_shop_item {
+  background: rgba(255,255,255,0.1);
+}
+.wann_news_block.text-center {
+  text-align: center;
+}
+.wann_news_block {
+  position: relative;
+
+}
+.wann_news_block .wann_news_img {
+  position: relative;
+}
+.wann_news_block .wann_over {
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    transform:scale(1);
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: auto;
+    /*width: 600px;*/
+    height: auto;
+    right: 0;
+    /*left: -20px;*/
+    top: 0;
+    bottom: 0;
+  }
+  .wann_news_block .wann_over_zre {
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -ms-transform-origin: center;
+    -o-transform-origin: center;
+    transform-origin: center;
+    border-radius: 10px;
+  }
+  .wann_news_block:hover .wann_over {
+    transform:scale(1);
+  }
+  .wann_news_block:hover .wann_over_zre {
+    transform:scale(1);
+    top: 25px;
+    right: 25px;
+    left: 25px;
+    bottom: 25px;
+
+  }
+  .wann_news_block img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+    .wann_news_block:hover img {
+      transform:scale(1);
+    }
+    .wann_news_block:hover .wann_news_img_lh img {
+      transform:scale(1);
+    }
+    .wann_news_block p {
+    padding: 0 30px;
+    font-size: 19px;
+  }
+  .wann_team_slider_single .wann_news_block {
+    width: 340px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .wann_team_slider_single .wann_news_block.text-left {
+    width: auto;
+  }
+  .wann_shop_item:hover .wann_shop_item_title:before,
+  .wann_news_block:hover .wann_news_title:before {
+    height: 30px;
+  }
+  .wann_news_block {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.wann_team_slider_single .wann_news_block {
+  width: 100%;
+}
+
+
+.wann_news_img {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+  .wann_news_img .wann_over {
+    /*border-radius: 10px 10px 0 0;*/
+  }
+  .wann_news_img {
+  height: 200px;
+}
+
+
+.wann_over {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1
+}
+.wann_slider .wann_over {
+      height: 100%;
+    }
+    .wann_over_img {
+    z-index: 2;
+  }
+  .wann_service_block .wann_over {
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+  }
+  .wann_service_block:hover .wann_over {
+    opacity: 0!important;
+  }
+
+
+
+  .wann_news_title {
+    font-family: dosis;
+    font-size: 20px;
+    padding-top: 15px;
+   /* font:400 34px/37px Amatic SC, Arial;*/
+    display: block;
+    margin-bottom: 22px;
+    padding: 0 30px;
+  }
+  .wann_shop_item_title:before,
+  .wann_news_title:before {
+    width: 1px;
+    background: #333;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin: -40px 0 0 0;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    height: 0;
+    opacity: .4;
+    z-index: 2;
+  }
+  .wann_wht_txt .wann_shop_item_title:before,
+  .wann_wht_txt .wann_news_title:before {
+    background: #fff;
+
+  }
+  .wann_shop_item:hover .wann_shop_item_title:before,
+  .wann_news_block:hover .wann_news_title:before {
+    height: 30px;
+  }
+  
+
