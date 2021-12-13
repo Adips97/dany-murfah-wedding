@@ -10,5 +10,5 @@ Feature:
   7. Responsive to any devices
   8. Integrated with payment method for donation purpose (Next Update)
 ------------------------------------------------------------------------------------------
-* Please Give Me Star *
+Please Give Me Star *
   Happy Codding !!!!!!
